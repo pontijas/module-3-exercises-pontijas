@@ -1,0 +1,65 @@
+@import 'variables';
+
+.App-container {
+  background-color: $backgroundApp;
+  display: flex;
+}
+
+.Card-container {
+  background-color: $backgroundCard;
+  width: 400px;
+  box-shadow: 2px 2px 5px $shadow;
+  margin: 20px;
+}
+
+.Header {
+  &-container {
+    color: $titleColor;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  &-img {
+    height: 10vmin;
+    pointer-events: none;
+    margin: 1rem;
+    border-radius: 50%;
+  }
+}
+
+.Main {
+  &-container {
+    height: 250px;
+  }
+  &-text {
+    padding: 0 20px;
+  }
+}
+
+.Footer {
+  &-container {
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &-link {
+    color: $shadow;
+  }
+}
+
+.List {
+  &-items {
+    list-style: none;
+  }
+}
+
+.small-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.fa-heart {
+  color: $heart;
+  margin: 1rem 0 1rem 1rem;
+}
